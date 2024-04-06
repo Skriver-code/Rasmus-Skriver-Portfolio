@@ -1,7 +1,19 @@
 .main {
-    margin-top: 10hv; /* Adjust based on your top bar's height */
+    margin-top: 10vh; /* Adjust based on your top bar's height */
     padding: 20px;
     min-height: 90vh;
     background-color: black;
     color: white;
+    font-size: 16px;
+}
+.vertical-text1 {
+    font-size: 3rem;
+    writing-mode: vertical-lr;
+    transform: rotate(270deg);
+}
+.vertical-text2 {
+    font-size: 4rem;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    transform: rotate(270deg);
 }

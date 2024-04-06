@@ -10,7 +10,7 @@ function NavBar() {
             <header className="App-header">
                 <nav className={`${styles.navbar}`}>
                     {/* logo */}
-                    <a href='#home' className={`${styles.logo}`}>Dev. </a>
+                    <a href='#home' className={`${styles.logo}`}>RS. </a>
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                         <li onClick={removeActive}>
                             <a href='#home' className={`${styles.navLink}`}>Home</a>
