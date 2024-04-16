@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
+
 import styles from './navbar.module.css'
 function NavBar() {
     const [isActive, setIsActive] = useState(false);
@@ -10,7 +12,10 @@ function NavBar() {
             <header className="App-header">
                 <nav className={`${styles.navbar}`}>
                     {/* logo */}
-                    <a href='#home' className={`${styles.logo}`}>RS. </a>
+                    <Link to="/" className={`${styles.logo}`}>
+                        R<span className={styles.yellow}>S</span>.
+                    </Link>
+
                     <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                         <li onClick={removeActive}>
                             <a href='#home' className={`${styles.navLink}`}>Home</a>

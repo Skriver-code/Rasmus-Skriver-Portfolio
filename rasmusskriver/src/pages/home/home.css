@@ -1,4 +1,6 @@
 .main {
+    display: flex;
+    flex-direction:row;
     margin-top: 10vh; /* Adjust based on your top bar's height */
     padding: 20px;
     min-height: 90vh;
@@ -9,11 +11,9 @@
 .vertical-text1 {
     font-size: 3rem;
     writing-mode: vertical-lr;
-    transform: rotate(270deg);
 }
 .vertical-text2 {
     font-size: 4rem;
     font-weight: bold;
     writing-mode: vertical-lr;
-    transform: rotate(270deg);
 }
